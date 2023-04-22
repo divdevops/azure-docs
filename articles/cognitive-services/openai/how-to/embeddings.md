@@ -35,7 +35,7 @@ curl https://YOUR_RESOURCE_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYM
 import openai
 
 openai.api_type = "azure"
-openai.api_key = YOUR_API_KEY
+openai.api_key = "YOUR_API_KEY"
 openai.api_base = "https://YOUR_RESOURCE_NAME.openai.azure.com"
 openai.api_version = "2022-12-01"
 
